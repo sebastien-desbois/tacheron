@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:docs": "react-scripts build && move /Y build docs",
+    "build:docs": "react-scripts build && del /S /Q docs && XCOPY build docs /E /Y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
