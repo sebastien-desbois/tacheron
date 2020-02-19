@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.781b947d.chunk.js",
-    "main.js.map": "/static/js/main.781b947d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f5f41fb0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f5f41fb0.js.map",
-    "static/js/2.c4149655.chunk.js": "/static/js/2.c4149655.chunk.js",
-    "static/js/2.c4149655.chunk.js.map": "/static/js/2.c4149655.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c516fd8da6be6548e30ed14a065e7e77.js": "/precache-manifest.c516fd8da6be6548e30ed14a065e7e77.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.c4149655.chunk.js.LICENSE.txt": "/static/js/2.c4149655.chunk.js.LICENSE.txt"
+    "main.js": "/tacheron/static/js/main.003de209.chunk.js",
+    "main.js.map": "/tacheron/static/js/main.003de209.chunk.js.map",
+    "runtime-main.js": "/tacheron/static/js/runtime-main.44846dfb.js",
+    "runtime-main.js.map": "/tacheron/static/js/runtime-main.44846dfb.js.map",
+    "static/js/2.c4149655.chunk.js": "/tacheron/static/js/2.c4149655.chunk.js",
+    "static/js/2.c4149655.chunk.js.map": "/tacheron/static/js/2.c4149655.chunk.js.map",
+    "index.html": "/tacheron/index.html",
+    "precache-manifest.7dc9feb46d8250eabb1454c97d619827.js": "/tacheron/precache-manifest.7dc9feb46d8250eabb1454c97d619827.js",
+    "service-worker.js": "/tacheron/service-worker.js",
+    "static/js/2.c4149655.chunk.js.LICENSE.txt": "/tacheron/static/js/2.c4149655.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5f41fb0.js",
+    "static/js/runtime-main.44846dfb.js",
     "static/js/2.c4149655.chunk.js",
-    "static/js/main.781b947d.chunk.js"
+    "static/js/main.003de209.chunk.js"
   ]
 }
