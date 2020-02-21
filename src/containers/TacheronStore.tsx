@@ -24,4 +24,5 @@ function TacheronStore() {
         );
     }
 }
+TacheronStore.displayName = 'TacheronStore';
 export default TacheronStore;

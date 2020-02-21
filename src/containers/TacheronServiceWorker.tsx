@@ -8,12 +8,19 @@ function useRegisterEffect() {
             onSuccess: (registration) => {
                 console.log('Registration#onSuccess');
                 console.log(Notification.permission);
-                registration.showNotification('Test Notif after registration');
+                
+                registration.showNotification('Test Notif after registration',
+                {
+                    body: 'OnSuccess'
+                });
             },
             onUpdate: (registration) => {
                 console.log('Registration#onUpdate');
                 console.log(Notification.permission);
-                registration.showNotification('Test Notif after update');
+                registration.showNotification('Test Notif after update',
+                {
+                    body: 'OnSuccess'
+                });
             }
         });
     }, []);
