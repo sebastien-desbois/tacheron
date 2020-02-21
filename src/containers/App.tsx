@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import AppPanel from './components/AppPanel';
+import AppPanel from '../components/AppPanel';
 
 function App() {
   return (
@@ -10,5 +10,6 @@ function App() {
     </>
   );
 }
+(App as React.SFC).displayName = 'App';
 
 export default App;

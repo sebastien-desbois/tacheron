@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from './App';
 import CssBaseline from '@material-ui/core/CssBaseline/CssBaseline';
-import AppPanel from './components/AppPanel';
+import AppPanel from '../components/AppPanel';
 
 it('should render the material-ui css baseline', () => {
   // Given
@@ -10,9 +10,9 @@ it('should render the material-ui css baseline', () => {
 
   // When
   const wrapper = shallow(<App/>);
+  
   // Then
-
-  expect(wrapper).toContainReact(<CssBaseline/>)
+  expect(wrapper).toContainReact(<CssBaseline/>);
 })
 
 it('should render the application panel', () => {
@@ -21,7 +21,7 @@ it('should render the application panel', () => {
 
   // When
   const wrapper = shallow(<App/>);
-  // Then
 
-  expect(wrapper).toContainReact(<AppPanel/>)
+  // Then
+  expect(wrapper).toContainReact(<AppPanel/>);
 })
