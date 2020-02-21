@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tacheron/precache-manifest.ae4c09c863e7dc2bf3aae1851e7dda71.js"
+  "/tacheron/precache-manifest.6b04beec7ca0de6751befb4ac8c633b6.js"
 );
 
 self.addEventListener('message', (event) => {

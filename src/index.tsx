@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
 import TacheronApp from './containers/TacheronApp';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<TacheronApp />, document.getElementById('tacheron-app'));
 
