@@ -41,17 +41,21 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-function BottomBar() {
+interface BottomBarProps {
+  onAdd: () => void
+}
+
+function BottomBar(props: BottomBarProps) {
     // Configure CSS styles
     const classes = useStyles();
     
     return (
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="open drawer">
+          <IconButton edge="start" color="inherit" aria-label="open drawer" >
             <MenuIcon />
           </IconButton>
-          <Fab color="secondary" aria-label="add" className={classes.fabButton}>
+          <Fab color="secondary" aria-label="add" className={classes.fabButton} onClick={props.onAdd}>
             <AddIcon />
           </Fab>
           <div className={classes.grow} />
@@ -65,5 +69,5 @@ function BottomBar() {
       </AppBar>
     );
 }
-(BottomBar as React.SFC).displayName = 'AppPanel';
+(BottomBar as React.SFC).displayName = 'BottomBar';
 export default BottomBar;

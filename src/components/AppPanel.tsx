@@ -94,7 +94,6 @@ const messages = [
 function AppPanel():JSX.Element {
     // Configure CSS styles
     const classes = useStyles();
-
     return (
         <>
         <Paper square className={classes.paper}>
@@ -129,7 +128,7 @@ function AppPanel():JSX.Element {
           ))}
         </List>
         </Paper>
-        <BottomBar />
+        <BottomBar onAdd={() => console.log('add')}/>
       </>
     );
 }
